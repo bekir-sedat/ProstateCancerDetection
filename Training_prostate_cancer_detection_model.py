@@ -477,9 +477,6 @@ new_Folder = '/content/gdrive/My Drive/Panda/Dynamic_256__target_768_b0_day4'
 if(not os.path.exists(new_Folder)):
   os.makedirs(new_Folder)
 
-start_epoch = 1 # Normally 1 
-n_epochs = 30 # total = 31
-
 qwk_max = 0.
 best_file = f'{new_Folder}/{kernel_type}_Best_fold{fold}'
 last_file = f'{new_Folder}/{kernel_type}_LastFile{fold}'
